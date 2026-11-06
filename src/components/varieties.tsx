@@ -15,6 +15,10 @@ export function Varieties() {
             Days are what seed catalogs usually print. Your season will move them. Habit matters more than
             the name: a 6-foot vine on a 4-foot fence is a wasted packet.
           </p>
+          <p className="mt-3 text-muted">
+            These varieties are usually sold as open-pollinated, including Sugar Snap, but seed companies
+            sometimes sell hybrids. Check that the packet says OP or heirloom, not F1, before you save seed.
+          </p>
         </div>
 
         <div className="mt-8 grid gap-3 md:grid-cols-3">

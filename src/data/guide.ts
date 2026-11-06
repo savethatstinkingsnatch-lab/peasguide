@@ -23,7 +23,7 @@ export const TYPES: {
     aka: "English or garden peas",
     eat: "Shell the pod. Eat the peas.",
     detail:
-      "The familiar sweet pea. The pod is too fibrous to eat. Pick while the peas are plump and still sweet, before they turn starchy.",
+      "The familiar English or garden pea. The pod is too fibrous to eat. Pick while the peas are plump and still sweet, before they turn starchy. Do not confuse this with ornamental sweet pea (see Stay Safe).",
   },
   {
     id: "snap",
@@ -189,11 +189,11 @@ export const CHAPTERS: Chapter[] = [
       "Aim for pH 6.0–7.5. If you have never tested the bed, a test beats another bag of something.",
       "Loosen the top 8–10 inches. If water sits after rain, raise the row. Compost improves structure. Sand alone does not.",
       "Work in about an inch of finished compost. Skip fresh manure and any high-nitrogen fertilizer.",
-      "Wait three or four years before peas, or other legumes, come back to the same bed. Fusarium and root rots linger in the soil.",
+      "Wait three or four years before peas, or other legumes, come back to the same bed. Fusarium and root rots linger in the soil. See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Do not plant peas right after beans in the same bed — wait the full 3 to 4 years.",
     ],
     aside: {
       title: "What to plant beside them",
-      body: "Carrots, radishes, lettuce, spinach, and turnips share the cool season and do not fight the row. Keep onions, garlic, and shallots elsewhere. Alliums can slow peas. A radish sown the same day marks the row and is gone before the vines sprawl.",
+      body: "Carrots, radishes, lettuce, spinach, and turnips share the cool season and do not fight the row. Keep onions, garlic, and shallots elsewhere. Alliums can slow peas. A radish sown the same day marks the row and is gone before the vines sprawl. See also Volume 20: Lettuce for the cool-season salad bed.",
     },
   },
   {
@@ -290,8 +290,10 @@ export const CHAPTERS: Chapter[] = [
       "Use a container at least 12 inches deep, about 5 gallons for six to eight bush plants. Potting mix, not garden clay. Inoculate.",
       "Do not let the pot dry out. Flower drop in containers is almost always a missed watering.",
       "For fall, count back 8–12 weeks from the first frost and use a fast bush variety. In hot zones, shade the seedlings for the first two weeks.",
-      "Peas self-pollinate, so saved seed comes fairly true if varieties are 10–20 feet apart. Farther if you want stricter purity. Do not save seed from an F1 hybrid.",
+      "Peas mostly self-pollinate, so saved seed comes fairly true. Keep varieties about 10 to 20 feet apart for home seed, or about 50 feet if you want stricter purity. Do not save seed from an F1 hybrid. Check the packet: if it says F1 or hybrid, eat the crop and buy fresh seed next year.",
       "Leave a few pods to turn brown and rattle on a healthy plant. Shell them, dry another week on a plate, and store cool, dark, and dry. Use the seed within two years.",
+      "Look for a small round hole or a soft spot in dry seed. That can be the pea weevil. Do not sow or share seed with holes. For seed you are keeping, freeze the fully dry seed in a sealed jar for at least 48 hours to kill hidden larvae, then store it cool and dry. Do not freeze damp seed.",
+      "See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Do not plant peas right after beans in the same bed — wait the full 3 to 4 years.",
     ],
   },
 ];

@@ -2,7 +2,7 @@ import { i as __toESM } from "../_runtime.mjs";
 import { K as require_react, b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { n as create, t as persist } from "../_libs/zustand.mjs";
 import { a as addDays, i as startOfDay, n as isAfter, r as format, t as isBefore } from "../_libs/date-fns.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-XO9ooJ6q.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-BLWiK3cL.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var TASKS = [
@@ -83,7 +83,7 @@ var TYPES = [
 		label: "Shelling",
 		aka: "English or garden peas",
 		eat: "Shell the pod. Eat the peas.",
-		detail: "The familiar sweet pea. The pod is too fibrous to eat. Pick while the peas are plump and still sweet, before they turn starchy."
+		detail: "The familiar English or garden pea. The pod is too fibrous to eat. Pick while the peas are plump and still sweet, before they turn starchy. Do not confuse this with ornamental sweet pea (see Stay Safe)."
 	},
 	{
 		id: "snap",
@@ -258,11 +258,11 @@ var CHAPTERS = [
 			"Aim for pH 6.0–7.5. If you have never tested the bed, a test beats another bag of something.",
 			"Loosen the top 8–10 inches. If water sits after rain, raise the row. Compost improves structure. Sand alone does not.",
 			"Work in about an inch of finished compost. Skip fresh manure and any high-nitrogen fertilizer.",
-			"Wait three or four years before peas, or other legumes, come back to the same bed. Fusarium and root rots linger in the soil."
+			"Wait three or four years before peas, or other legumes, come back to the same bed. Fusarium and root rots linger in the soil. See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Do not plant peas right after beans in the same bed — wait the full 3 to 4 years."
 		],
 		aside: {
 			title: "What to plant beside them",
-			body: "Carrots, radishes, lettuce, spinach, and turnips share the cool season and do not fight the row. Keep onions, garlic, and shallots elsewhere. Alliums can slow peas. A radish sown the same day marks the row and is gone before the vines sprawl."
+			body: "Carrots, radishes, lettuce, spinach, and turnips share the cool season and do not fight the row. Keep onions, garlic, and shallots elsewhere. Alliums can slow peas. A radish sown the same day marks the row and is gone before the vines sprawl. See also Volume 20: Lettuce for the cool-season salad bed."
 		}
 	},
 	{
@@ -359,8 +359,10 @@ var CHAPTERS = [
 			"Use a container at least 12 inches deep, about 5 gallons for six to eight bush plants. Potting mix, not garden clay. Inoculate.",
 			"Do not let the pot dry out. Flower drop in containers is almost always a missed watering.",
 			"For fall, count back 8–12 weeks from the first frost and use a fast bush variety. In hot zones, shade the seedlings for the first two weeks.",
-			"Peas self-pollinate, so saved seed comes fairly true if varieties are 10–20 feet apart. Farther if you want stricter purity. Do not save seed from an F1 hybrid.",
-			"Leave a few pods to turn brown and rattle on a healthy plant. Shell them, dry another week on a plate, and store cool, dark, and dry. Use the seed within two years."
+			"Peas mostly self-pollinate, so saved seed comes fairly true. Keep varieties about 10 to 20 feet apart for home seed, or about 50 feet if you want stricter purity. Do not save seed from an F1 hybrid. Check the packet: if it says F1 or hybrid, eat the crop and buy fresh seed next year.",
+			"Leave a few pods to turn brown and rattle on a healthy plant. Shell them, dry another week on a plate, and store cool, dark, and dry. Use the seed within two years.",
+			"Look for a small round hole or a soft spot in dry seed. That can be the pea weevil. Do not sow or share seed with holes. For seed you are keeping, freeze the fully dry seed in a sealed jar for at least 48 hours to kill hidden larvae, then store it cool and dry. Do not freeze damp seed.",
+			"See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Do not plant peas right after beans in the same bed — wait the full 3 to 4 years."
 		]
 	}
 ];
@@ -1530,6 +1532,10 @@ function Varieties() {
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "mt-3 text-muted",
 							children: "Days are what seed catalogs usually print. Your season will move them. Habit matters more than the name: a 6-foot vine on a 4-foot fence is a wasted packet."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-3 text-muted",
+							children: "These varieties are usually sold as open-pollinated, including Sugar Snap, but seed companies sometimes sell hybrids. Check that the packet says OP or heirloom, not F1, before you save seed."
 						})
 					]
 				}),
@@ -1606,6 +1612,14 @@ function Varieties() {
 }
 var LINKS = [
 	{
+		href: "#start",
+		label: "Start"
+	},
+	{
+		href: "#safe",
+		label: "Stay safe"
+	},
+	{
 		href: "#planner",
 		label: "When"
 	},
@@ -1624,8 +1638,188 @@ var LINKS = [
 	{
 		href: "#journal",
 		label: "Journal"
+	},
+	{
+		href: "#glossary",
+		label: "Glossary"
+	},
+	{
+		href: "#about",
+		label: "About"
 	}
 ];
+var START_STEPS = [
+	"Sow in cool weather, as soon as the soil can be worked.",
+	"Use fresh seed and pea/vetch inoculant on new ground.",
+	"Plant 1 inch deep, every 1 to 2 inches.",
+	"Put the trellis in the same day.",
+	"Water evenly once they flower.",
+	"Pick every other day.",
+	"Never eat ornamental sweet pea."
+];
+var GLOSSARY = [
+	{
+		term: "Shelling pea",
+		meaning: "Eat the peas; discard the fibrous pod."
+	},
+	{
+		term: "Snap pea",
+		meaning: "Eat the whole plump pod."
+	},
+	{
+		term: "Snow pea",
+		meaning: "Eat the flat pod before seeds swell."
+	},
+	{
+		term: "Inoculant",
+		meaning: "Helpful Rhizobium bacteria coated on the seed."
+	},
+	{
+		term: "Nodules",
+		meaning: "Pink bumps on roots that fix nitrogen."
+	},
+	{
+		term: "Bush",
+		meaning: "Short plants; pea sticks are often enough."
+	},
+	{
+		term: "Vine / pole",
+		meaning: "Tall plants that need a trellis."
+	},
+	{
+		term: "Powdery mildew",
+		meaning: "White dust on leaves late in the season."
+	},
+	{
+		term: "Open-pollinated (OP)",
+		meaning: "Seed that grows true."
+	},
+	{
+		term: "F1 hybrid",
+		meaning: "A cross. Saved seed won't grow true."
+	},
+	{
+		term: "Pea weevil",
+		meaning: "Beetle whose larva eats inside the dry seed."
+	},
+	{
+		term: "Sweet pea (Lathyrus odoratus)",
+		meaning: "Poisonous flower plant — not a garden pea."
+	}
+];
+function StartHere() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+		id: "start",
+		className: "mx-auto max-w-5xl px-5 py-12",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "font-display text-lg text-pea italic",
+				children: "Start here"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+				className: "mt-2 text-3xl text-ink sm:text-4xl",
+				children: "New to peas?"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ol", {
+				className: "mt-6 grid max-w-2xl gap-3",
+				children: START_STEPS.map((step, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("li", {
+					className: "flex gap-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+						className: "w-6 shrink-0 font-medium tabular-nums text-pea",
+						children: [index + 1, "."]
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: step })]
+				}, step))
+			})
+		]
+	});
+}
+function StaySafe() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "safe",
+		className: "mx-auto max-w-5xl px-5 pb-4",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "max-w-3xl rounded-2xl border border-danger bg-card p-5",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+				className: "text-2xl text-ink",
+				children: "Stay safe — sweet pea look-alike"
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+				className: "mt-3 text-ink",
+				children: [
+					"Ornamental sweet pea (",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "italic",
+						children: "Lathyrus odoratus"
+					}),
+					") is a different plant from garden peas (",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "italic",
+						children: "Pisum sativum"
+					}),
+					"). Sweet pea is grown for fragrant flowers. Its seeds, flowers, and pods are POISONOUS. Never eat them, and never cook them 'by mistake.' Garden peas have edible pods (snap and snow) or edible seeds (shelling). If a packet or plant is sold as a flower sweet pea, do not eat any part of it. If someone may have eaten sweet pea seeds, call Poison Control at",
+					" ",
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						className: "font-medium text-pea underline-offset-2 hover:underline",
+						href: "tel:18002221222",
+						children: "1-800-222-1222"
+					}),
+					"."
+				]
+			})]
+		})
+	});
+}
+function Glossary() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "glossary",
+		className: "border-t border-line",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-5xl px-5 py-12",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "font-display text-lg text-pea italic",
+					children: "Words in this guide"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "mt-2 text-3xl text-ink sm:text-4xl",
+					children: "Glossary"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dl", {
+					className: "mt-6 grid max-w-3xl gap-4",
+					children: GLOSSARY.map((entry) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("dt", {
+						className: "font-medium text-ink",
+						children: entry.term
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("dd", {
+						className: "text-muted",
+						children: entry.meaning
+					})] }, entry.term))
+				})
+			]
+		})
+	});
+}
+function About() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
+		id: "about",
+		className: "border-t border-line",
+		children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "mx-auto max-w-5xl px-5 py-12",
+			children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "font-display text-lg text-pea italic",
+					children: "About and disclaimer"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+					className: "mt-2 text-3xl text-ink sm:text-4xl",
+					children: "About this guide"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "mt-4 max-w-2xl text-muted",
+					children: "This pocket guide is for learning. Check your local county extension office for frost dates and advice in your area. Never eat a plant sold as ornamental sweet pea. Blue and the Awesome Dudes are not responsible for illness, injury, or crop loss. Part of The Education Revolution pocket guide series."
+				})
+			]
+		})
+	});
+}
 function Home() {
 	useRehydrateJournal();
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
@@ -1663,7 +1857,15 @@ function Home() {
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 							className: "mt-3 max-w-3xl text-5xl text-ink sm:text-6xl",
-							children: "Growing peas"
+							children: "Pea Plot"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-4 max-w-2xl text-lg text-ink",
+							children: "The Education Revolution Pocket Guide, Volume 22: Peas"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+							className: "mt-1 max-w-2xl text-lg text-muted",
+							children: "by Blue and the Awesome Dudes"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 							className: "mt-4 max-w-2xl text-lg text-muted",
@@ -1684,20 +1886,27 @@ function Home() {
 						})
 					]
 				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(StartHere, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(StaySafe, {}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Planner, {}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Varieties, {}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Method, {}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Troubles, {}),
-				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(JournalPanel, {})
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(JournalPanel, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Glossary, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(About, {})
 			] }),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
 				className: "border-t border-line",
-				children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+				children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "mx-auto max-w-5xl px-5 py-8",
-					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "max-w-2xl text-sm text-muted",
 						children: "Pea Plot is a field guide, not a substitute for a local extension frost table. Zone dates are typical, and variety days follow common catalog listings. Your soil, the week’s weather, and the seed lot will move the harvest."
-					})
+					}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-3 max-w-2xl text-sm text-muted",
+						children: "Privacy: This guide does not collect your name, email, or any personal information. Your plot journal is saved only on your own device."
+					})]
 				})
 			})
 		]
