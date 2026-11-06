@@ -12,8 +12,8 @@ export function Varieties() {
           <p className="font-display text-lg text-pea italic">What to grow</p>
           <h2 className="mt-2 text-3xl text-ink sm:text-4xl">Three peas, eaten three ways</h2>
           <p className="mt-3 text-muted">
-            Days are what seed catalogs usually print. Your season will move them. Habit matters more than
-            the name: a 6-foot vine on a 4-foot fence is a wasted packet.
+            Days and heights below are approximate. They vary by seed source and growing conditions. Habit
+            matters more than the name: a 6-foot vine on a 4-foot fence is a wasted packet.
           </p>
           <p className="mt-3 text-muted">
             These varieties are usually sold as open-pollinated, including Sugar Snap, but seed companies
@@ -52,7 +52,7 @@ export function Varieties() {
                 <p className="text-sm font-medium text-pea">{type?.label}</p>
                 <h3 className="mt-1 text-2xl text-ink">{item.name}</h3>
                 <p className="mt-2 text-sm font-medium tabular-nums text-ink">
-                  {item.days} days · {item.habit === "bush" ? "Bush" : "Vine"} · {item.height}
+                  About {item.days} days · {item.habit === "bush" ? "Bush" : "Vine"} · about {item.height}
                 </p>
                 <p className="mt-3 text-sm text-muted">{item.note}</p>
               </li>

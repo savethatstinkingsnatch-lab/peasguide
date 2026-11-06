@@ -96,7 +96,7 @@ export type Plan = {
 };
 
 export const SOIL_NOTE =
-  "Sow when the soil is at least 40°F and crumbles instead of smearing. Germination is best around 50–65°F. Cold mud rots the seed. So does soil above about 75°F.";
+  "Sow when the soil is workable and about 45°F or warmer. Peas tolerate cool soil, but cold, wet soil can delay emergence or rot seed. Germination is best around 50–65°F.";
 
 type MonthDay = [number, number];
 

@@ -160,7 +160,7 @@ function Home() {
           <p className="mt-1 max-w-2xl text-lg text-muted">by Blue and the Awesome Dudes</p>
           <p className="mt-4 max-w-2xl text-lg text-muted">
             Shelling, snap, and snow peas want cool weather, a trellis put in early, and a picker who does
-            not wait. Sugar starts turning to starch the hour the pod comes off the vine.
+            not wait. Peas lose sweetness and quality quickly after harvest. Cool them promptly.
           </p>
           <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-4">
             {FACTS.slice(0, 4).map((fact) => (

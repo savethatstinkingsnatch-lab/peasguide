@@ -23,7 +23,7 @@ export const TYPES: {
     aka: "English or garden peas",
     eat: "Shell the pod. Eat the peas.",
     detail:
-      "The familiar English or garden pea. The pod is too fibrous to eat. Pick while the peas are plump and still sweet, before they turn starchy. Do not confuse this with ornamental sweet pea (see Stay Safe).",
+      "The familiar English or garden pea. The pod is too fibrous to eat. Pick while the peas are plump and still sweet, before they turn starchy. Do not confuse this with ornamental sweet pea (Lathyrus odoratus). That plant is not edible, and its seeds are toxic if eaten (see Stay Safe).",
   },
   {
     id: "snap",
@@ -84,8 +84,8 @@ export const VARIETIES: Variety[] = [
     id: "maestro",
     name: "Maestro",
     type: "shelling",
-    habit: "vine",
-    height: "24–30 in",
+    habit: "bush",
+    height: "18–27 in",
     days: 60,
     note: "Resists powdery mildew, so the row keeps picking after other shelling peas quit.",
   },
@@ -159,14 +159,14 @@ export function varietyById(id: string): Variety | undefined {
 }
 
 export const FACTS: { label: string; value: string }[] = [
-  { label: "Soil temperature", value: "40°F minimum, 50–65°F best" },
+  { label: "Soil temperature", value: "About 45°F and workable" },
   { label: "Depth", value: "1 inch, or 2 if the soil is warm and dry" },
   { label: "In the row", value: "A seed every 1–2 inches" },
   { label: "Between rows", value: "18–24 inches" },
   { label: "Water", value: "About 1 inch a week" },
   { label: "Days to harvest", value: "55–75, by variety" },
   { label: "Soil pH", value: "6.0–7.5" },
-  { label: "Rotation", value: "3–4 years before peas return" },
+  { label: "Rotation", value: "Don’t repeat the same bed" },
 ];
 
 export type Chapter = {
@@ -189,11 +189,11 @@ export const CHAPTERS: Chapter[] = [
       "Aim for pH 6.0–7.5. If you have never tested the bed, a test beats another bag of something.",
       "Loosen the top 8–10 inches. If water sits after rain, raise the row. Compost improves structure. Sand alone does not.",
       "Work in about an inch of finished compost. Skip fresh manure and any high-nitrogen fertilizer.",
-      "Wait three or four years before peas, or other legumes, come back to the same bed. Fusarium and root rots linger in the soil. See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Do not plant peas right after beans in the same bed — wait the full 3 to 4 years.",
+      "Avoid planting peas in the same bed again and again. Rotation can reduce disease, but base it on what has gone wrong in that bed and on local recommendations. See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant.",
     ],
     aside: {
       title: "What to plant beside them",
-      body: "Carrots, radishes, lettuce, spinach, and turnips share the cool season and do not fight the row. Keep onions, garlic, and shallots elsewhere. Alliums can slow peas. A radish sown the same day marks the row and is gone before the vines sprawl. See also Volume 20: Lettuce for the cool-season salad bed.",
+      body: "Carrots, radishes, lettuce, spinach, and turnips share the cool season and fit beside the row. A radish sown the same day marks the row and is gone before the vines sprawl. See also Volume 20: Lettuce for the cool-season salad bed.",
     },
   },
   {
@@ -206,11 +206,11 @@ export const CHAPTERS: Chapter[] = [
       "Direct sow. The root is a taproot and it resents transplanting. If mice force your hand, start in deep pots and move them before the second true leaf, pot and all if it is paper.",
       "Inoculate if this bed has not grown peas or vetch in the last few years. Use pea and vetch inoculant, Rhizobium leguminosarum biovar viciae. Bean inoculant is the wrong bacterium.",
       "Dampen the seed, dust it until every seed is coated, and sow the same day. Store the packet cool and check the date. Dead inoculant looks the same as live inoculant.",
-      "An eight-hour soak can hurry germination in cool soil. Longer than that and the seed splits.",
+      "Peas can be sown dry. If you choose to soak them, follow your seed or inoculant directions and sow promptly. Do not leave them soaking until they split.",
     ],
     aside: {
       title: "Are the nodules working?",
-      body: "When the first flowers open, lift one plant gently. Working nodules are pink to red inside. White, green, or missing nodules mean the inoculant did not take. The plants still grow. They just grow more slowly in a poor bed.",
+      body: "Check several plants when the first flowers open. Pink or reddish tissue inside a nodule is a good sign of nitrogen fixation. Few nodules, or pale or greenish ones, may mean inoculation or growing conditions were poor. Missing nodules alone do not prove the inoculant failed. The plants can still grow.",
     },
   },
   {
@@ -248,7 +248,7 @@ export const CHAPTERS: Chapter[] = [
       "About 1 inch of water a week, rain included. More in sand, and more once they flower and fill pods.",
       "Water the soil in the morning. Leaves that stay wet overnight invite powdery mildew and botrytis.",
       "Mulch with straw or shredded leaves once plants are 4 inches tall and the soil has warmed. Two inches is enough. Keep it off the stems.",
-      "Do not side-dress with nitrogen. If leaves are pale and the nodules failed, a light compost mulch is the correction, not lawn fertilizer.",
+      "Do not side-dress with nitrogen. If leaves are pale and nodules are few or pale, a light compost mulch is the correction, not lawn fertilizer.",
       "Weed early and shallow. A hoe slipped deep cuts the roots.",
     ],
   },
@@ -258,7 +258,7 @@ export const CHAPTERS: Chapter[] = [
     title: "From flower to pod",
     lead: "Peas pollinate themselves. You do not need bees, though they visit. Heat is what stops the crop, not a shortage of pollinators.",
     steps: [
-      "Flowers abort, and pods stay empty, when days sit above about 80°F or the plant dries out at bloom.",
+      "Sustained heat, especially with dry soil, can cause flower drop and incomplete pod fill. How soon that happens depends on the variety and the weather.",
       "Powdery mildew shows up with warm days and cool nights late in the season. Cascadia, Super Sugar Snap, Oregon Sugar Pod II, and Maestro keep going longer.",
       "Check new growth for aphids. A hard spray of water, repeated, is enough on a small row. Pinch off a tip that is already crowded with them.",
       "Once pods start, pick every other day. A ripe pod left on the vine tells the plant to stop flowering and ripen seed.",
@@ -268,13 +268,13 @@ export const CHAPTERS: Chapter[] = [
     id: "harvest",
     kicker: "The point of it",
     title: "Harvest and keeping",
-    lead: "Sugar in a pea starts turning to starch the hour it is picked. The flavor people remember is a same-day flavor.",
+    lead: "Peas lose sweetness and quality quickly after harvest. Cool them promptly for the best flavor.",
     steps: [
       "Snow peas: pick while the pod is flat and the seeds are only bumps. A plump snow pea is a tough snow pea.",
       "Snap peas: pick when the pod is round, glossy, and snaps. Seeds inside should still be modest. Sugar Snap develops a string as it ages. Stringless varieties do not.",
       "Shelling peas: the pod should look bright and feel full. Open one. Sweet and tender means pick the row. Hard and mealy means you waited.",
       "Hold the stem with one hand and pinch the pod with the other. A yank pulls the plant out. The roots are shallow.",
-      "Refrigerate unwashed, in a loose bag, and eat within two or three days. To freeze, blanch shelling peas and snaps about 90 seconds, snow peas about 60, chill in ice water, dry, and freeze in one layer.",
+      "Refrigerate unwashed, in a loose bag. Promptly cooled peas can keep a week or more. To freeze, blanch shelling peas 1½–2 minutes and thick sugar snaps 1½–2 minutes. Thin snow peas need about 1 minute. Cool promptly in ice water, dry, and freeze in one layer.",
     ],
     aside: {
       title: "Pea shoots",
@@ -293,7 +293,7 @@ export const CHAPTERS: Chapter[] = [
       "Peas mostly self-pollinate, so saved seed comes fairly true. Keep varieties about 10 to 20 feet apart for home seed, or about 50 feet if you want stricter purity. Do not save seed from an F1 hybrid. Check the packet: if it says F1 or hybrid, eat the crop and buy fresh seed next year.",
       "Leave a few pods to turn brown and rattle on a healthy plant. Shell them, dry another week on a plate, and store cool, dark, and dry. Use the seed within two years.",
       "Look for a small round hole or a soft spot in dry seed. That can be the pea weevil. Do not sow or share seed with holes. For seed you are keeping, freeze the fully dry seed in a sealed jar for at least 48 hours to kill hidden larvae, then store it cool and dry. Do not freeze damp seed.",
-      "See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Do not plant peas right after beans in the same bed — wait the full 3 to 4 years.",
+      "See also Volume 1: Green Beans. Beans want warmer soil and a different inoculant. Avoid planting peas in the same bed again and again, and rotate based on disease history and local recommendations.",
     ],
   },
 ];
@@ -347,8 +347,8 @@ export const STAGES: Stage[] = [
     watch: "White flowers, self-fertile. The crop is decided in these two weeks.",
     actions: [
       "Keep the water steady. A dry spell now means empty pods later.",
-      "If days are already over 80°F, this sowing is nearly done. The next one has to be earlier, or in fall.",
-      "Pink nodules on a lifted root mean the inoculant took.",
+      "If heat is holding and the soil is drying out, this sowing is nearly done. The next one has to be earlier, or in fall.",
+      "Check several plants. Pink or reddish nodule interiors suggest active fixation. Few or pale nodules may mean inoculation or growing conditions were poor.",
     ],
   },
   {
@@ -359,7 +359,7 @@ export const STAGES: Stage[] = [
     actions: [
       "Pick every other day. Hold the vine, pinch the pod.",
       "Snow peas while flat. Snaps while glossy. Shelling peas while sweet, not mealy.",
-      "Eat or chill them the same day. The sugar does not wait.",
+      "Cool them promptly. Flavor holds better once they are cold.",
     ],
   },
   {
@@ -431,14 +431,14 @@ export const TROUBLES: Trouble[] = [
     severity: "serious",
     signs: "One plant or a patch collapses. The stem at the soil line is brown, soft, or streaked. The rest of the row may look normal.",
     fix: "Pull the plant, roots and all, and trash it. Do not compost it. Fusarium wilt and root rots such as Aphanomyces are soil-borne. Watering more will not save a plant whose stem is already dead.",
-    prevent: "Drainage, a raised row, and three to four years before legumes return. Where this has happened before, move the crop.",
+    prevent: "Drainage and a raised row. Where this has happened before, move the crop and follow local advice on how long to stay out of that bed.",
   },
   {
     id: "yellow",
     name: "Yellow leaves, few flowers",
     severity: "sometimes",
     signs: "The row is pale, soft, and leafy, or it yellows from the bottom while sitting in wet soil.",
-    fix: "If the bed is wet, stop watering and open the soil to air. If you fed it like a tomato, stop. Peas with failed nodules in a poor soil want compost, not more nitrogen.",
+    fix: "If the bed is wet, stop watering and open the soil to air. If you fed it like a tomato, stop. If nodules are few or pale and the soil is poor, use compost, not more nitrogen.",
     prevent: "A drained bed, inoculant on new ground, and no high-nitrogen fertilizer.",
   },
   {
@@ -446,7 +446,7 @@ export const TROUBLES: Trouble[] = [
     name: "Flowers fall and pods do not set",
     severity: "common",
     signs: "Plenty of bloom, then nothing. Or pods that stay flat and empty. Often in the last weeks of a spring crop.",
-    fix: "You cannot talk a heat-stressed plant into podding. Pick any pods that did set, and plan the next sowing for the cool window. Steady water helps only if the problem was drought, not a week of 85°F days.",
+    fix: "You cannot talk a heat-stressed plant into podding. Pick any pods that did set, and plan the next sowing for the cool window. Steady water helps only if the problem was drought, not a run of hot days.",
     prevent: "Sow inside the window for your zone. In hot-spring climates, the fall or winter sowing is the reliable one.",
   },
   {
