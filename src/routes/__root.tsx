@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Peas: Pea Plot";
+const APP_NAME = "Volume 22: Peas (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "A practical field guide to growing shelling, snap, and snow peas: sowing windows, varieties, trellising, harvest, and a plot journal.",
+          "Volume 22 of The Education Revolution, by Blue and the Awesome Dudes. A practical field guide to growing shelling, snap, and snow peas: sowing windows, varieties, trellising, harvest, and a plot journal.",
       },
       { name: "theme-color", content: "#f3f0e8" },
     ],
